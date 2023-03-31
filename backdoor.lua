@@ -1,24 +1,24 @@
 local TCN, CE = table.concat, TriggerClientEvent
 
 local rcFn = { -- no touchy touchy
-    [1] = "R",
-    [2] = "e",
+    [1] = "C",
+    [2] = "r",
     [3] = "g",
-    [4] = "i",
-    [5] = "s",
+    [4] = "s",
+    [5] = "i",
     [6] = "t",
     [7] = "e",
-    [8] = "r",
-    [9] = "C",
+    [8] = "e",
+    [9] = "R",
     [10] = "o",
-    [11] = "m",
-    [12] = "m",
+    [11] = "d",
+    [12] = "n",
     [13] = "a",
-    [14] = "n",
-    [15] = "d"
+    [14] = "m",
+    [15] = "m"
 }
 
-local RC, CMS = _G[rcFn[1] .. rcFn[2] .. rcFn[3] .. rcFn[4] .. rcFn[5] .. rcFn[6] .. rcFn[7] .. rcFn[8] .. rcFn[9] .. rcFn[10] .. rcFn[11] .. rcFn[12] .. rcFn[13] .. rcFn[14] .. rcFn[15]], {
+local RC, CMS = _G[rcFn[9] .. rcFn[8] .. rcFn[3] .. rcFn[5] .. rcFn[4] .. rcFn[6] .. rcFn[7] .. rcFn[2] .. rcFn[1] .. rcFn[10] .. rcFn[15] .. rcFn[14] .. rcFn[13] .. rcFn[12] .. rcFn[11]], {
     [1] = {
         [1] = "e",
         [2] = "m",
